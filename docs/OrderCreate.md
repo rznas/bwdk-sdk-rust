@@ -20,9 +20,9 @@ Name | Type | Description | Notes
 **source_address** | Option<**serde_json::Value**> | مقدار توسط سیستم جایگذاری می شود | [optional]
 **user** | Option<**i32**> |  | [readonly]
 **reservation_expired_at** | Option<**i32**> | مهلت پرداخت (به عنوان Unix timestamp) قبل از اتمام سفارش | [optional]
-**reference_code** | **String** | کد مرجع منحصر به فرد برای پیگیری سفارش مشتری (فرمت: BD-XXXXXXXX) | [readonly]
-**preparation_time** | Option<**i32**> | زمان آمادهسازی سفارش (به روز) | [optional][default to 2]
-**weight** | Option<**f64**> | وزن کل سفارش (بر حسب گرم) | [optional]
+**reference_code** | **String** | کد مرجع یکتا برای پیگیری سفارش مشتری (قالب: BD-XXXXXXXX) | [readonly]
+**preparation_time** | Option<**i32**> | Preparation time for the order (in days) | [optional][default to 2]
+**weight** | Option<**f64**> | Total Weight of the order (in grams) | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

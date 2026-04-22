@@ -111,6 +111,9 @@ impl From<&str> for ContentType {
     }
 }
 
-pub mod default_api;
+pub mod merchant_orders_api;
+pub mod merchant_wallet_api;
+pub mod order_shipping_api;
+pub mod seller_profile_management_api;
 
 pub mod configuration;
