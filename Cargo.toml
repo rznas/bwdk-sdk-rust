@@ -1,6 +1,6 @@
 [package]
 name = "bwdk_sdk"
-version = "1.0.5"
+version = "1.0.6"
 authors = ["OpenAPI Generator team and contributors"]
 description = "<div dir=\"rtl\" style=\"text-align: right;\">  # مستندات فروشندگان در سرویس خرید با دیجی‌کالا  این پلتفرم برای فروشندگان (مرچنت‌ها) جهت یکپارچه‌سازی خدمات پرداخت و تجارت الکترونیکی با سیستم خرید با دیجی‌کالا. شامل مدیریت سفارشات، ارسال، و احراز هویت فروشندگان است.  </div> "
 # Override this license by providing a License Object in the OpenAPI.
